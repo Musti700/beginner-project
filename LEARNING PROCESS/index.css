@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n8OANHFEedhMoU-JQC1WMAHaEo%26pid%3DApi&sp=1727697047T2a3fb5903e101ce08e84324f0e604f5bc7b6c8160de1a674bec1ec6f6a296340);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: goldenrod; */
+    height: 50px;
+    margin-bottom: 30px;
+    /* background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n8OANHFEedhMoU-JQC1WMAHaEo%26pid%3DApi&sp=1727697047T2a3fb5903e101ce08e84324f0e604f5bc7b6c8160de1a674bec1ec6f6a296340); */
+}
+
+ul{
+    display: flex;
+padding-right: 20px;
+}
+
+ul li{
+    /* padding-left: 10px; */
+    list-style-type: none;
+    color: brown;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li:hover{
+    color: greenyellow;
+    border-bottom: 4px solid white;
+}

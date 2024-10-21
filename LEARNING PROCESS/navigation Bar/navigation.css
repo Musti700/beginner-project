@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n8OANHFEedhMoU-JQC1WMAHaEo%26pid%3DApi&sp=1727697047T2a3fb5903e101ce08e84324f0e604f5bc7b6c8160de1a674bec1ec6f6a296340);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 51, 0);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    color: whitesmoke;
+    padding: 10px;
+    
+
+}
+
+h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: black;
+}
+
+li:hover{
+    color: rgb(16, 156, 21);
+    border-bottom: 5px;
+    cursor: pointer;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+.form{
+    background-color: aqua;
+    width: 350px;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+
+h3{
+    text-align: center;
+    /* background-color: forestgreen; */
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: yellow;
+
+}
+
+div{
+    padding: 20px;
+    margin: 20px auto;
+    display:inline-flex;
+    flex-direction: column;
+    width: 100%;
+   
+
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+label{
+    margin-top: 15px;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    width: 80px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 4px;
+    color: aliceblue;
+
+}

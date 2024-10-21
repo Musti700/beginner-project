@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #393737;   
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+    width: 100%;
+}   
+
+.hero{
+    position: relative; 
+    width: 100%; 
+    height: 100vh;
+    background-image: url(./NavClass/image-folder/pexels-zakaria-2827400.jpg);
+    background-size: cover;   
+ background-position: center;
+ z-index: 2;
+}
+
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.7);
+z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+nav li{
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+nav button{
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+nav button:hover{
+    background-color: rgb(130, 123, 123);
+    cursor: pointer;
+
+}
+
+nav li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+.jet{
+    margin-top: 140px;
+    color: white    ;
+    margin-bottom: 100px;
+}
+
+.jet h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.jet button{
+    width: 250px;
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    border: none;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+.jet button:hover{
+    background-color: grey;
+    cursor: pointer;
+    /* color: pink; */
+
+}
+
+.calendar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 40px auto; */
+    
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+}
+.fa-calendar{
+    font-size: 20px;
+    padding-right: 15px;
+}
+.world{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+    padding-top: 40px;
+    
+}
+
+.world .cont{
+    align-items: start ;
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.world img{
+    height: 300px;
+}
+
+
+.primary p{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.primary ul{
+    display: block;
+}
+
+.primary ul li{
+    list-style-type:none;
+    padding-top: 30px;
+}
+
+.fa-check{
+    padding-right: 10px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.coach{
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.coach img{
+    margin-right: 160px;
+    height: 300px;
+    width: 500px;
+}
+.meet{
+    margin-left: 120px;
+
+}
+.meet p{
+    padding: 10px;
+}
+
+.jent{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    height: 300px;
+    padding-top: 80px;
+}
+
+.jent button{
+    width: 250px;
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    border: none;
+    margin-top: 8px;
+    font-weight: bolder;
+
+}
+
+.jent button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    background-color: rgb(15, 15, 20);
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li{
+    font-size: 30px;
+    color: blue;
+    list-style-type: none;
+    padding: 10px;
+}
+.log{
+    display: flex;
+    align-items: center;
+}
+
+.log img{
+    height: 70px;
+    width: 70px;
+    padding-right: 10px;
+}

@@ -1,0 +1,303 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+
+body{
+    background-image: url(../../../proxy-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    position:sticky ;
+    /* width: 100%; */
+    top: 0;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+
+}
+
+ul li{
+    list-style-type: none;
+    justify-content: space-between;
+    padding:10px;
+
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    /* margin-left: 150px; */
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    z-index: 10;
+
+}
+
+h4{
+    text-align: center;
+    color: white;
+font-size: medium;
+    font-weight: lighter;
+    word-spacing: 5px;
+    /* margin-bottom: 80px; */
+    padding-bottom: 80px;
+    padding-top: 30px;
+
+}
+
+.parent{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    }
+
+.text{
+    padding-left: 50px;
+}
+.text h6{
+    padding-top: 10px;
+}
+    .button{
+       display: flex;
+       align-items: center;
+       border-radius: 5px;
+       border: none;
+    }
+    .button button{
+        margin-right:20px ;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bolder;
+    }
+
+    li:hover{
+        color: rgb(16, 156, 21);
+        border-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .socials{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+    }
+
+    h5{
+        margin-left: 70px;
+    }
+
+    .futter{
+        background-color: white;
+        color: rgba(0, 0, 0, 0.68);
+        height: 65px;
+        /* margin: auto; */
+        text-align: center;
+        padding: 40px;
+        font-size: larger;
+    }
+
+    .con{
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-slack{
+        font-size: 40px;
+       
+    }
+
+    .signup{
+        margin: auto;
+        width: 80%;
+        background-color: rgb(12, 7, 39);
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .signup img{
+        width: 400px;
+        height: 500px;
+    }
+    .signup form{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    form{
+        margin-left: 50px;
+    }
+
+    h3{
+        color: white;
+        font-size: larger;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    input{
+        width: 480px;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        border-bottom: 2px solid rgb(104, 104, 104);
+        background-color: transparent;
+        outline: none;
+    }
+
+    .bubu{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .bubu button{
+        padding: 10px;
+        background-color: yellowgreen;
+        color: whitesmoke;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 8px;
+       
+    }
+
+    .bubu a{
+        margin-left: 20px;
+    }
+
+    ::placeholder{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* max-width: 1240px;*/
+margin: 5% auto;
+}
+.card{
+    padding: 10px;
+
+}
+
+.card{
+    border-radius: 8px;
+    box-shadow: 2px 4px 12px #ccc;
+}
+.card img {
+    width: 230px;
+    height: 200px;
+}
+.card p{
+    color: white;
+    padding: 10px;
+}
+
+.card button{
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.card button:hover{
+    background-color: darkgreen;
+    color: azure;
+}
+
+
+.emma{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 3% auto;
+
+}
+
+.general{
+    padding: 10px;
+}
+
+.general img{
+    width: 230px;
+    height: 200px;
+    border: 5px;
+}
+
+.general p{
+    color: white;
+    padding: 10px;
+}
+
+.general button{
+    width: 100px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.general button:hover{
+    color: white;
+    background-color: green;
+
+}
+
+.general{
+    box-shadow: 2px 4px 12px #ccc;
+    border-radius: 8px;
+}
+
+
+.div1{
+    background-color: blue;
+    height: 100px;
+    width: 50%;
+    margin: 10px;
+    color: antiquewhite;
+    overflow:auto;
+}
+
+.div2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    float: right;
+
+}
+
